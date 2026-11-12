@@ -210,6 +210,7 @@ export default function Feeds() {
                 {feed.pending_episodes > 0 && (
                   <StatusPill tone="info">{feed.pending_episodes} 待入库</StatusPill>
                 )}
+                {feed.last_status === 'error' && <StatusPill tone="bad" dot>最近抓取失败</StatusPill>}
               </div>
               <p className="feed-note">
                 {feed.note}

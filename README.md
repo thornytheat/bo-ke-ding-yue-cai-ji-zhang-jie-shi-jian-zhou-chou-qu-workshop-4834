@@ -248,8 +248,9 @@ SEED_SUMMARY brand=podcastdig feeds=6 episodes=48 chapters=260 issues=22 users=3
 1. **订阅源是确定性夹具**：`backend/fixtures/` 是静态快照（RSS/JSON/HTML），采集不访问网络，也不做真实反爬/重试退避；`fixtures` 由 `scripts/build_fixtures.py` 从 `demo_config.py` 生成，改数据后需重跑。
 2. **字体依赖 Google Fonts**：`Chivo` / `IBM Plex Mono` 走 Google Fonts；离线环境回退到 `PingFang SC / Hiragino Sans GB / 系统等宽`，中文观感与在线略有差异（详见 test-artifacts 的 TESTING）。
 3. **「采集新增」的口径**：seed 契约锁定 `episodes=48`，所以「新增 3」指**水位线之后新到达、尚未入库采集**的 3 集（`ingest_state=pending` → 采集时置 `synced`），采集不改变单集总数；「更新 5」是平台改写简介的 5 集。
-4. 演示环境用 `Base.metadata.create_all` 建表，`migrations/0001_initial.sql` 只是同结构的可审阅 DDL，没有引入 Alembic。
-5. 批次同步执行（单进程 worker，48 集毫秒级完成）；真实场景应改成流式分片 + 失败重试队列。
+4. **批次是原子的**：采集先把范围内所有源的夹具读通，任一源断档整批回滚、批次 `failed` 并在 `error_text` 与日志里指出来源（源清单上该源标「最近抓取失败」）；所有源读通后才统一写库、批次结束一次性提交，失败后重试不留半批数据。重复运行同一批不新增、不重复更新（内容指纹比对）；简介（show notes）变化的集在同一批次内重建章节时间轴并刷新异常队列，人工补录章节保持原样。
+5. 演示环境用 `Base.metadata.create_all` 建表，`migrations/0001_initial.sql` 只是同结构的可审阅 DDL，没有引入 Alembic。
+6. 批次同步执行（单进程 worker，48 集毫秒级完成）；真实场景应改成流式分片 + 失败重试队列。
 
 ## License
 

@@ -38,7 +38,6 @@ def run_digest(task_id: int) -> dict:
         if task is None:
             logger.warning("task %s not found", task_id)
             return {"status": "missing", "task_id": task_id}
-        feed_codes = None if task.feed_scope == "all" else task.feed_scope.split(",")
         finished = digest_service.execute_task(db, task)
         return {
             "status": finished.status,
