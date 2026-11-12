@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>信号与噪声</title>
+    <link>https://feeds.podcastdig.io/techweekly.xml</link>
+    <description>RSS 2.0；经常在正文里贴 1h02m 这类非常规时间码</description>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 12 Nov 2026 09:00:00 +0800</lastBuildDate>
+    <item>
+      <title>端侧模型的算力账</title>
+      <guid isPermaLink="false">podcastdig:techweekly:s03e001</guid>
+      <pubDate>Thu, 17 Sep 2026 09:00:00 +0800</pubDate>
+      <itunes:duration>00:55:10</itunes:duration>
+      <itunes:season>3</itunes:season>
+      <itunes:episode>1</itunes:episode>
+      <itunes:summary><![CDATA[信号与噪声 第 1 集：端侧模型的算力账。本期从本周技术信号与拆解数据切入，聊了三件具体的事和一组可复用的口径，适合在通勤或剪辑时收听。]]></itunes:summary>
+      <description><![CDATA[端侧模型的算力账
+节目：信号与噪声 ｜ 时长 00:55:10 ｜ 发布 2026-09-17
+
+本期嘉宾：林向北 ｜ 剪辑：老周 ｜ 选题：阿岚
+本期内容：
+01:00 拆解成本结构
+08:10 对比三家方案
+15:20 开发者反馈
+22:30 专利与标准之争
+29:40 一位听众的不同意见
+1h02m 听众问答（时间码格式未识别）
+1h18m 片尾曲与下期预告（时间码格式未识别）
+
+剪辑 / 混音：老周
+选题：阿岚
+（章节时间码来自 show notes 原文，未经二次加工）]]></description>
+    </item>
+    <item>
+      <title>折叠屏铰链的十次迭代</title>
+      <guid isPermaLink="false">podcastdig:techweekly:s03e002</guid>
+      <pubDate>Thu, 24 Sep 2026 09:00:00 +0800</pubDate>
+      <itunes:duration>00:40:50</itunes:duration>
+      <itunes:season>3</itunes:season>
+      <itunes:episode>2</itunes:episode>
+      <itunes:summary><![CDATA[信号与噪声 第 2 集：折叠屏铰链的十次迭代。本期从本周技术信号与拆解数据切入，聊了三件具体的事和一组可复用的口径，适合在通勤或剪辑时收听。]]></itunes:summary>
+      <description><![CDATA[折叠屏铰链的十次迭代
+节目：信号与噪声 ｜ 时长 00:40:50 ｜ 发布 2026-09-24
+
+本期嘉宾：林向北 ｜ 剪辑：老周 ｜ 选题：阿岚
+本期内容：
+01:00 专利与标准之争
+08:10 一位听众的不同意见
+15:20 上周更正
+22:30 数据和图表说明
+29:40 采访片段：产线工程师
+
+剪辑 / 混音：老周
+选题：阿岚
+（章节时间码来自 show notes 原文，未经二次加工）]]></description>
+    </item>
+    <item>
+      <title>卫星互联网的最后一公里</title>
+      <guid isPermaLink="false">podcastdig:techweekly:s03e003</guid>
+      <pubDate>Thu, 01 Oct 2026 09:00:00 +0800</pubDate>
+      <itunes:duration>00:41:30</itunes:duration>
+      <itunes:season>3</itunes:season>
+      <itunes:episode>3</itunes:episode>
+      <itunes:summary><![CDATA[信号与噪声 第 3 集：卫星互联网的最后一公里。本期从本周技术信号与拆解数据切入，聊了三件具体的事和一组可复用的口径，适合在通勤或剪辑时收听。]]></itunes:summary>
+      <description><![CDATA[卫星互联网的最后一公里
+节目：信号与噪声 ｜ 时长 00:41:30 ｜ 发布 2026-10-01
+
+本期嘉宾：林向北 ｜ 剪辑：老周 ｜ 选题：阿岚
+本期内容：
+01:00 数据和图表说明
+08:18 采访片段：产线工程师
+15:36 行业历史回顾
+22:54 风险提示
+30:12 下期选题投票
+
+剪辑 / 混音：老周
+选题：阿岚
+（章节时间码来自 show notes 原文，未经二次加工）]]></description>
+    </item>
+    <item>
+      <title>电池回收的灰色地带</title>
+      <guid isPermaLink="false">podcastdig:techweekly:s03e004</guid>
+      <pubDate>Thu, 08 Oct 2026 09:00:00 +0800</pubDate>
+      <itunes:duration>00:48:20</itunes:duration>
+      <itunes:season>3</itunes:season>
+      <itunes:episode>4</itunes:episode>
+      <itunes:summary><![CDATA[信号与噪声 第 4 集：电池回收的灰色地带。本期从本周技术信号与拆解数据切入，聊了三件具体的事和一组可复用的口径，适合在通勤或剪辑时收听。]]></itunes:summary>
+      <description><![CDATA[电池回收的灰色地带
+节目：信号与噪声 ｜ 时长 00:48:20 ｜ 发布 2026-10-08
+
+本期嘉宾：林向北 ｜ 剪辑：老周 ｜ 选题：阿岚
+本期内容：
+37:05 编辑手记
+37:05 平台重复条目
+01:00 风险提示
+08:13 下期选题投票
+15:26 片尾曲与致谢
+22:39 加更说明
+29:52 参考链接
+
+剪辑 / 混音：老周
+选题：阿岚
+（章节时间码来自 show notes 原文，未经二次加工）]]></description>
+    </item>
+    <item>
+      <title>AR 眼镜的光学难题</title>
+      <guid isPermaLink="false">podcastdig:techweekly:s03e005</guid>
+      <pubDate>Thu, 15 Oct 2026 09:00:00 +0800</pubDate>
+      <itunes:duration>00:42:50</itunes:duration>
+      <itunes:season>3</itunes:season>
+      <itunes:episode>5</itunes:episode>
+      <itunes:summary><![CDATA[信号与噪声 第 5 集：AR 眼镜的光学难题。本期从本周技术信号与拆解数据切入，聊了三件具体的事和一组可复用的口径，适合在通勤或剪辑时收听。]]></itunes:summary>
+      <description><![CDATA[AR 眼镜的光学难题
+节目：信号与噪声 ｜ 时长 00:42:50 ｜ 发布 2026-10-15
+
+本期嘉宾：林向北 ｜ 剪辑：老周 ｜ 选题：阿岚
+本期内容：
+01:00 加更说明
+08:34 参考链接
+16:08 编辑手记
+23:42 本周信号：三条新闻
+31:16 端侧推理的功耗曲线
+
+剪辑 / 混音：老周
+选题：阿岚
+（章节时间码来自 show notes 原文，未经二次加工）]]></description>
+    </item>
+    <item>
+      <title>大模型推理的成本拐点</title>
+      <guid isPermaLink="false">podcastdig:techweekly:s03e006</guid>
+      <pubDate>Thu, 22 Oct 2026 09:00:00 +0800</pubDate>
+      <itunes:duration>00:43:30</itunes:duration>
+      <itunes:season>3</itunes:season>
+      <itunes:episode>6</itunes:episode>
+      <itunes:summary><![CDATA[信号与噪声 第 6 集：大模型推理的成本拐点。本期从本周技术信号与拆解数据切入，聊了三件具体的事和一组可复用的口径，适合在通勤或剪辑时收听。 【2026-11 平台修订】补充了嘉宾更正的一处口径，并追加两条参考链接。]]></itunes:summary>
+      <description><![CDATA[大模型推理的成本拐点
+节目：信号与噪声 ｜ 时长 00:43:30 ｜ 发布 2026-10-22
+
+本期嘉宾：林向北 ｜ 剪辑：老周 ｜ 选题：阿岚
+本期内容：
+01:00 本周信号：三条新闻
+08:42 端侧推理的功耗曲线
+16:24 供应链口径的一次澄清
+24:06 拆解成本结构
+31:48 对比三家方案
+
+剪辑 / 混音：老周
+选题：阿岚
+（章节时间码来自 show notes 原文，未经二次加工）]]></description>
+    </item>
+    <item>
+      <title>芯片封装的产能争夺</title>
+      <guid isPermaLink="false">podcastdig:techweekly:s03e007</guid>
+      <pubDate>Thu, 29 Oct 2026 09:00:00 +0800</pubDate>
+      <itunes:duration>00:40:50</itunes:duration>
+      <itunes:season>3</itunes:season>
+      <itunes:episode>7</itunes:episode>
+      <itunes:summary><![CDATA[信号与噪声 第 7 集：芯片封装的产能争夺。本期从本周技术信号与拆解数据切入，聊了三件具体的事和一组可复用的口径，适合在通勤或剪辑时收听。]]></itunes:summary>
+      <description><![CDATA[芯片封装的产能争夺
+节目：信号与噪声 ｜ 时长 00:40:50 ｜ 发布 2026-10-29
+
+本期嘉宾：林向北 ｜ 剪辑：老周 ｜ 选题：阿岚
+本期内容：
+01:00 拆解成本结构
+08:10 对比三家方案
+15:20 开发者反馈
+22:30 专利与标准之争
+29:40 一位听众的不同意见
+
+剪辑 / 混音：老周
+选题：阿岚
+（章节时间码来自 show notes 原文，未经二次加工）]]></description>
+    </item>
+    <item>
+      <title>智能家居的协议混战</title>
+      <guid isPermaLink="false">podcastdig:techweekly:s03e008</guid>
+      <pubDate>Thu, 05 Nov 2026 09:00:00 +0800</pubDate>
+      <itunes:duration>00:41:30</itunes:duration>
+      <itunes:season>3</itunes:season>
+      <itunes:episode>8</itunes:episode>
+      <itunes:summary><![CDATA[信号与噪声 第 8 集：智能家居的协议混战。本期从本周技术信号与拆解数据切入，聊了三件具体的事和一组可复用的口径，适合在通勤或剪辑时收听。]]></itunes:summary>
+      <description><![CDATA[智能家居的协议混战
+节目：信号与噪声 ｜ 时长 00:41:30 ｜ 发布 2026-11-05
+
+本期嘉宾：林向北 ｜ 剪辑：老周 ｜ 选题：阿岚
+本期内容：
+01:00 专利与标准之争
+08:18 一位听众的不同意见
+15:36 上周更正
+22:54 数据和图表说明
+30:12 采访片段：产线工程师
+
+剪辑 / 混音：老周
+选题：阿岚
+（章节时间码来自 show notes 原文，未经二次加工）]]></description>
+    </item>
+  </channel>
+</rss>

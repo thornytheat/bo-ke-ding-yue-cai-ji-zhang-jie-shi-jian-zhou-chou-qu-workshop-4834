@@ -1,0 +1,41 @@
+/* podcastdig 设计令牌：录音棚磁带标签与 reel。
+   炭黑底 + 磁带橙 / 奶油字 + 走带刻度 + 等宽时间码。全部 oklch，禁纯黑纯白。 */
+:root {
+  /* 炭黑（磁带机外壳） */
+  --cab: oklch(0.225 0.012 60);
+  --cab-2: oklch(0.262 0.014 58);
+  --cab-3: oklch(0.312 0.016 56);
+  --cab-4: oklch(0.378 0.02 56);
+  --cab-5: oklch(0.452 0.022 56);
+
+  /* 奶油（标签纸） */
+  --cream: oklch(0.928 0.043 86);
+  --cream-soft: oklch(0.848 0.036 83);
+  --cream-faint: oklch(0.688 0.028 78);
+  --rule: oklch(0.412 0.02 56);
+  --rule-soft: oklch(0.352 0.018 56);
+
+  /* 磁带橙 */
+  --tape: oklch(0.722 0.163 55);
+  --tape-deep: oklch(0.612 0.152 47);
+  --tape-soft: oklch(0.822 0.088 62);
+  --tape-glow: oklch(0.722 0.163 55 / 0.18);
+
+  /* 信号色（异常等级 / 解析状态） */
+  --ok: oklch(0.742 0.1 148);
+  --warn: oklch(0.804 0.128 88);
+  --bad: oklch(0.638 0.188 28);
+  --info: oklch(0.706 0.072 232);
+
+  --font-display: 'Chivo', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans SC', 'Microsoft YaHei', sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --font-body: var(--font-display);
+
+  --rail-w: 112px;
+  --pad: clamp(18px, 2.4vw, 40px);
+  --radius: 3px;
+
+  --shadow-lift: 0 18px 38px -26px oklch(0.12 0.01 60 / 0.9), 0 1px 0 oklch(0.46 0.02 56 / 0.5);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-tape: cubic-bezier(0.22, 0.68, 0.16, 1);
+}
